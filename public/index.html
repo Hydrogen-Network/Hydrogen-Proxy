@@ -100,23 +100,12 @@ body {
 <body>
 <div class="container">
 <div>
-<script>
-                async function go() {
-                    var input = document.getElementById('url-target');
-                    if (input.value) {
-                        await registerSW();
-                        window.location.href = __uv$config.prefix + __uv$config.encodeUrl(input.value);
-                    } else {
-                        alert('Please provide a link. It requires https://.');
-                    }
-                }
-            </script>
 <span class="w3-large"> <font size="+20"><b>Eternal Hub</b></font><br></span>
 <span class="w3-large"><font size="+2.5">Made by students, for students :) </span>
-<div>
-<input class="w3-xlarge" type='text' placeholder='www.example.com' id='url-target' onkeydown='if(event.key==="Enter") go()' />
-</div>
-<div>
+    <form id="uv-form" class="flex-center">
+      <input id="uv-search-engine" value="https://search.brave.com/search?q=" type="hidden"/>
+      <input id="uv-address" type="text" placeholder="Enter Search Query or URL"/>
+    </form></div>
 <b>Please make sure you have the https:// on the URL, it is best to just copy the link from the actual search bar!</b>
 </div>
 <br>
