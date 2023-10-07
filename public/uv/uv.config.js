@@ -2,7 +2,7 @@
 
 self.__uv$config = {
     prefix: "/uv/service/",
-    bare: ["https://gointerstellar.app/outerspace/", "https://shuttleproxy.com/bare/", "https://geoquiz.gq/bare/", "https://tomp.app/", "https://kazwi.com/bare/", "https://kazwire.com/bare/", "https://math.kazwire.com/bare/"],
+    bare: ["https://gointerstellar.app/outerspace/", "https://shuttleproxy.com/bare/", "https://geoquiz.gq/bare/", "https://tomp.app/", "https://kazwi.com/bare/", "https://kazwire.com/bare/", "https://math.kazwire.com/bare/", "https://elixirofficial.com/bare/"],
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: "/uv/uv.handler.js",
